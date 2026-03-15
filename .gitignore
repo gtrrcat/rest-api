@@ -1,0 +1,28 @@
+# Бинарники
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+
+# Бинарник проекта
+/rest-api
+/tmp
+
+# Переменные окружения (пароли, секреты)
+.env
+.env.local
+.env.*.local
+
+# Данные Docker
+postgres_data/
+
+# Go
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
